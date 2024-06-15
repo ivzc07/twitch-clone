@@ -100,7 +100,7 @@ export default function Card(){
                             <img src={data.img} className="w-[171px] h-[228px]">
                             </img>
                             <p className="text-base inter-font mt-1 text-[#f6f3fc] ">{data.title}</p> 
-                            <p className="text-base game-font text-[#f6f3fc] mt-1">{getRandomNumber()} espectadores</p>
+                            <p className="text-base game-font text-[#f6f3fc] mt-0">{getRandomNumber()} espectadores</p>
                             <div>
 
                                 {
