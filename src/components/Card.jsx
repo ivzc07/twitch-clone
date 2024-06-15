@@ -96,7 +96,7 @@ export default function Card(){
            {
                 data.map((data) => {
                     return (
-                        <div className="mr-4">
+                        <div className="mr-1">
                             <img src={data.img} className="w-[171px] h-[228px]">
                             </img>
                             <p className="text-base inter-font mt-1 text-[#f6f3fc] ">{data.title}</p> 
