@@ -14,7 +14,7 @@ export default function Content () {
                 <p className="inter-font text-2xl text-[#f6f3fc] mt-8">Canales en Directo</p>
             </div>
             <input className='w-[356px] h-[45px] rounded-lg mt-8 bg-transparent p-[0.5rem] border-2 focus:ring-8 ring-[#5c19c5]  ' type="text" placeholder="Buscar etiquetas de categoria" />
-            <div className="mt-8 flex flex-wrap">
+            <div className="mt-8 flex justify-evenly flex-wrap">
                 <Card/>
             </div>
         </div>
