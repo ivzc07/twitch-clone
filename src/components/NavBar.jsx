@@ -15,6 +15,7 @@ export default function NavBar (){
                     </div>
                 
                 
+                
                 <input className='w-[356px] h-[45px] rounded-lg rounded-br-none rounded-tr-none bg-transparent p-[0.5rem] border-2 focus:ring-8 ring-[#5c19c5]  ' type="text" placeholder="Search" />
             </div>
             
