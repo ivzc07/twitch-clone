@@ -1,7 +1,7 @@
 import ButtonsNavBar from "./ButtonsNavBar"
 export default function NavBar (){
     return(
-        <navbar className="col-start-1 col-end-3 bg-[#18181a] grid grid-cols-[25%_1fr_25%]" >
+        <navbar className="col-start-1 col-end-3 bg-[#18181a] grid grid-cols-[25%_1fr_25%] md:block" >
             <div className="col-start-1 col-start-end-2  flex flex-row items-center  ml-4">
                 <img className='h-[40px] w-[40px]'src="https://cdn-icons-png.flaticon.com/512/5968/5968819.png"></img>
                 <p className="inter-font text-2xl text-[#f6f3fc] ml-8">Explorar</p>
