@@ -4,7 +4,7 @@ export default function Content () {
     return(
         <div className="cols-start-2 cols-end-3 row-start-2 row-end-3 p-8 bg-[#0e0e0f]   ">
             <p className="inter-font text-6xl text-[#f6f3fc] pb-6 ">Explorar</p>
-            <div className="flex flex-wrap justify-between">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-8">
                 
                 <ContentButtons />
                 

@@ -32,11 +32,16 @@ export default function ContentButtons () {
             {
                 data.map((data) => {
                     return (
-                        <button className= 'inter-font bg-[#9147ff] hover:bg-sky-700 px-5 py-2 text-2xl  leading-6 rounded  text-[#f6f3fc]  w-[300px] h-[45px] flex justify-between items-center mb-4'>
-                            <p>{data.name}</p>
-                            <img src={data.img}>
-                            </img>
-                        </button>
+                        
+                            <button className= 'inter-font bg-[#9147ff] hover:bg-sky-700 px-5 py-2 text-2xl  leading-6 rounded  text-[#f6f3fc]  w-[100  %] h-[45px] flex justify-between items-center mb-4 '>   
+                                <p>{data.name}</p>
+                                <img src={data.img}>
+                           </img>  
+                   
+                       
+                            </button>
+                       
+                        
                     )
                 })
             }

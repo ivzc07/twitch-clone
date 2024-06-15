@@ -19,9 +19,9 @@ export default function ButtonsNavBar(){
             {
                 data.map((button) => {
                     return(
-                        <button className= {clsx('inter-font bg-[#303037] hover:bg-sky-700 px-5 py-2 text-base leading-5 rounded font-semibold text-[#f6f3fc] mx-3 hidden sm:block', {'bg-[#9147ff]': button.value})}>
+                        <div className= {clsx('inter-font bg-[#303037] hover:bg-sky-700 px-5 py-2 text-base leading-5 rounded font-semibold text-[#f6f3fc] mx-3 hidden lg:block', {'bg-[#9147ff]': button.value})}>
                                 {button.text}
-                        </button>
+                        </div>
                     )    
                 })
             }
