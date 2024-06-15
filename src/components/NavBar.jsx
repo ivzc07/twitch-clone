@@ -1,7 +1,7 @@
 import ButtonsNavBar from "./ButtonsNavBar"
 export default function NavBar (){
     return(
-        <navbar className="col-start-1 col-end-3 bg-[#18181a] grid grid-cols-[25%_1fr_25%]" >
+        <navbar className="col-start-1 col-end-3 bg-[#18181a] grid lg:grid-cols-[25%_1fr_30%]" >
             <div className="col-start-1 col-start-end-2  flex flex-row items-center  ml-4">
                 <img className='h-[40px] w-[40px]'src="https://cdn-icons-png.flaticon.com/512/5968/5968819.png"></img>
                 <p className="inter-font text-2xl text-[#f6f3fc] ml-8 hidden sm:block">Explorar</p>
@@ -10,14 +10,18 @@ export default function NavBar (){
             </div>
             <div className="inter-font col-start-2 col-start-end-3 flex justify-center items-center flex-row-reverse">
                 
-                <div className="w-[34px] h-[47px] flex justify-center items-center bg-[#303037] rounded-tr-lg rounded-br-lg">
-                    <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#f6f3fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                </div>
+                    <div className="w-[34px] h-[47px] flex justify-center items-center bg-[#303037] rounded-tr-lg rounded-br-lg ">
+                        <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#f6f3fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </div>
+                
+                
                 <input className='w-[356px] h-[45px] rounded-lg rounded-br-none rounded-tr-none bg-transparent p-[0.5rem] border-2 focus:ring-8 ring-[#5c19c5]  ' type="text" placeholder="Search" />
             </div>
-            <div className="col-start-3 col-start-end-4 flex justify-end items-center mx-3 ">
+            
+                <div className="col-start-3 col-start-end-4 flex justify-end items-center mx-3">
                 <ButtonsNavBar />
-            </div>
+                </div>
+            
             
         </navbar>
     )
